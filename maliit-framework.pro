@@ -48,7 +48,7 @@ contains(QT_MAJOR_VERSION, 4) {
              For a Qt 4 Maliit please use the 0.81 or 0.94-qt4 branches/release series instead")
 
     # https://bugs.maliit.org/show_bug.cgi?id=47#c4
-    SUBDIRS += connection maliit maliit-settings input-context
+    SUBDIRS += connection maliit maliit-settings input-context tests
 } else {
     SUBDIRS += connection src
 

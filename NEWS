@@ -1,0 +1,5 @@
+0.99.0
+======
+
+CHANGES
+* Qt 4 input context moved into a separate repository/package

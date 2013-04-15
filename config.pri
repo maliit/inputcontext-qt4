@@ -11,8 +11,8 @@ MALIIT_ABI_VERSION = $$MALIIT_VERSION
 # For libmaliit
 MALIIT_LIB = maliit-1.0
 MALIIT_SETTINGS_LIB = maliit-settings
-MALIIT_HEADER = maliit
-MALIIT_FRAMEWORK_HEADER = maliit/framework
+MALIIT_HEADER = maliit-qt4
+MALIIT_FRAMEWORK_HEADER = maliit-qt4/framework
 # For libmaliit-glib
 MALIIT_CONNECTION_GLIB_LIB = maliit-connection-glib
 MALIIT_GLIB_LIB = maliit-glib

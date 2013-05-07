@@ -47,7 +47,6 @@ using Maliit::InputMethod;
 namespace
 {
     const int SoftwareInputPanelHideTimer = 100;
-    const char * const ToolbarTarget("/toolbar");
     const char * const InputContextName(MALIIT_INPUTCONTEXT_NAME);
 
     //! Extracts a dynamic QObject property from obj, using normalization rules

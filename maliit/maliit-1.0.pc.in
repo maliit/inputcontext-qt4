@@ -7,5 +7,5 @@ Name: Maliit
 Description: Maliit provides a flexible and cross platform input method framework. It is usable on all MeeGo user experiences, and in other GNU/Linux distributions as well.
 Version: @MALIIT_VERSION@
 Requires: maliit-connection
-Cflags: -I${includedir}/@MALIIT_HEADER@
+Cflags: -I${includedir}/@MALIIT_HEADER@ -I${includedir}/@MALIIT_HEADER@/framework
 Libs: -L${libdir} -l@MALIIT_LIB@
